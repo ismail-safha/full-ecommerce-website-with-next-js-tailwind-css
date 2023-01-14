@@ -28,7 +28,7 @@ const Layout = ({ title, children }) => {
         </header>
         {/* bg video */}
         <section>
-          <div className="border border-sky-500  ">
+          <div className="  ">
             <img
               src="/banar.jpg"
               alt="banr"

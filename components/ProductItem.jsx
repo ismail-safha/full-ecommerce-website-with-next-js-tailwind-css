@@ -20,7 +20,7 @@ const ProductItem = ({ product }) => {
         <p className="mb-2">{product.brand}</p>
         <p className="">${product.price}</p>
         <button className="primary-button" type="button">
-          Add To Cart
+          Add to Cart
         </button>
       </div>
     </div>
