@@ -10,6 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1 className="text-3xl font-bold">NEXT tailwindcss AMAZON</h1>
+      <p className="text-cyan-300"> hi github</p>
     </>
   );
 }
