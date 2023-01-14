@@ -12,10 +12,10 @@ const Layout = ({ title, children }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="flex min-h-screen flex-col justify-between ">
-        <header>
+      <div className="flex min-h-screen flex-col justify-between  ">
+        <header className=" sticky  top-0 z-30 ">
           {/* start navigation */}
-          <nav className="flex h-12 justify-between items-center shadow px-[70px]">
+          <nav className="flex h-[70px] justify-between items-center shadow px-[20px] lg:px-[50px]  bg-[#fff]   ">
             <Link className="text-lg font-bold" href="/">
               ShopZone
             </Link>
@@ -26,8 +26,21 @@ const Layout = ({ title, children }) => {
           </nav>
           {/* end navigation */}
         </header>
-        <main className=" container m-auto px-[70px] mt-4">{children}</main>
-        <footer className="flex justify-center items-center  h-10 shadow-inner">
+        {/* bg video */}
+        <section>
+          <div className="border border-sky-500  ">
+            <img
+              src="/banar.jpg"
+              alt="banr"
+              className="bg-cover object-cover w-full h-[600px]"
+            />
+          </div>
+        </section>
+        {/* bg video */}
+        <main className=" container m-auto px-[20px]  mt-4 lg:px-[50px] ">
+          {children}
+        </main>
+        <footer className="flex justify-center items-center  h-10 shadow-inner ">
           <p>
             Copyright &copy; 2022{" "}
             <span className=" font-bold text-[#1a162e]">ShopZone</span> by
