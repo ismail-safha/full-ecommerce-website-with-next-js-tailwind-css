@@ -42,7 +42,7 @@ const Layout = ({ title, children }) => {
         </main>
         <footer className="flex justify-center items-center  h-10 shadow-inner ">
           <p>
-            Copyright &copy; 2022{" "}
+            Copyright &copy; 2023{" "}
             <span className=" font-bold text-[#1a162e]">ShopZone</span> by
             <span className=" font-bold text-[#16212e]">ismail-safha</span>
           </p>
