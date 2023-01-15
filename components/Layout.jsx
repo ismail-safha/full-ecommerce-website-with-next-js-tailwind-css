@@ -26,9 +26,9 @@ const Layout = ({ title, children }) => {
           </nav>
           {/* end navigation */}
         </header>
-        {/* bg video */}
+        {/* bg image */}
         <section>
-          <div className="  ">
+          <div className="">
             <img
               src="/banar.jpg"
               alt="banr"
