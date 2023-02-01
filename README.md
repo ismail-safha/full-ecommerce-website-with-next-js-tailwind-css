@@ -33,6 +33,8 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details. 7. Create Products details 8. handle add to cart
+# Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details. 7. Create Products details 8. handle add to cart
 
-1. create cart page
+11. Save Cart Items in cookies
+    1. install js-cookie package
+    2. save and retreive cart items in cookies
