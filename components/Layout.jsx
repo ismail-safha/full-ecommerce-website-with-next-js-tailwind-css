@@ -38,11 +38,12 @@ const Layout = ({ title, children }) => {
         </header>
         {/* bg image */}
         <section>
+          {/* ===== */}
           <div className="">
             <img
-              src="/banar.jpg"
+              src="/Copy-of-Unnamed-Design-1.png"
               alt="banr"
-              className="bg-cover object-cover w-full h-[600px]"
+              className="bg-cover object-cover w-full h-[400px]"
             />
           </div>
         </section>
