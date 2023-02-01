@@ -43,3 +43,12 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
     1. install react hook form(from validation form )
     2. create input boxes
     3. add login button
+
+---
+
+13. Connect To MongoDB
+    1. install mongoose
+    2. install mongodb or use mongodb atlas
+    3. save connection url in .env file
+    4. create db utils file
+    5. create sample users
