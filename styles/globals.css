@@ -12,6 +12,7 @@ body {
 
 a {
   @apply text-[#000] hover:text-[#000000c6];
+  @apply text-blue-600 hover:text-blue-800;
 }
 
 * {
@@ -28,4 +29,7 @@ input,
 select,
 textarea {
   @apply rounded border p-2  outline-none ring-indigo-300  focus:ring;
+}
+.dropdown-link {
+  @apply flex p-2 hover:bg-gray-200;
 }
