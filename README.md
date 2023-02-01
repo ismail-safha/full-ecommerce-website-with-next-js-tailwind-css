@@ -35,6 +35,11 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 # Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details. 7. Create Products details 8. handle add to cart
 
-11. Save Cart Items in cookies
-    1. install js-cookie package
-    2. save and retreive cart items in cookies
+11. Save Cart Items in cookies 1. install js-cookie package 2. save and retreive cart items in cookies
+
+---
+
+12. Create Login Form & validation form
+    1. install react hook form(from validation form )
+    2. create input boxes
+    3. add login button
