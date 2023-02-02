@@ -115,3 +115,10 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
     1. add signup api
     2. create register page
     3. call api on form submit
+
+---
+
+23. Create Order History Screen
+    1. create my order api
+    2. create order history component
+    3. fetch orders and display them
