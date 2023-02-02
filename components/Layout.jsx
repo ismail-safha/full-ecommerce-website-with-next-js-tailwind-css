@@ -91,8 +91,8 @@ const Layout = ({ title, children }) => {
           {/* end navigation */}
         </header>
         {/* bg image */}
-        <section>
-          {/* ===== */}
+        {/* <section>
+          
           <div className="">
             <img
               src="/Copy-of-Unnamed-Design-1.png"
@@ -100,7 +100,7 @@ const Layout = ({ title, children }) => {
               className="bg-cover object-cover w-full h-[400px]"
             />
           </div>
-        </section>
+        </section> */}
         {/* bg video */}
         <main className=" container m-auto px-[20px]  mt-4 lg:px-[50px] ">
           {children}
