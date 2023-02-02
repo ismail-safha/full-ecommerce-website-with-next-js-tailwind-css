@@ -6,7 +6,7 @@ import CheckoutWizard from "../components/CheckoutWizard";
 import Layout from "../components/Layout";
 import { Store } from "../utils/Store";
 
-const payment = () => {
+export default function PaymentScreen() {
   const [selectedPaymentMethod, setSelectedPaymentMethod] = useState("");
 
   const { state, dispatch } = useContext(Store);
@@ -71,6 +71,6 @@ const payment = () => {
       </form>
     </Layout>
   );
-};
+}
 
-export default payment;
+PaymentScreen.auth = true;

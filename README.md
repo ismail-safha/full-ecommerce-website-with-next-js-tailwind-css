@@ -93,3 +93,11 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
     1. load products in home page from mongodb
     2. load products in product page from mongodb
     3. use product api to check count in stock in add to cart
+
+---
+
+20. Create Place Order Screen
+    1. display shipping address
+    2. display payment method
+    3. display order items
+    4. implment create order
