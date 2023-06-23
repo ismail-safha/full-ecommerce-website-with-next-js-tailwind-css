@@ -124,3 +124,9 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
     3. fetch orders and display them
 
 ---
+
+24. Pay Order By PayPal
+    1. add paypal button
+    2. handle payment
+    3. create backend api
+    4. update order state
