@@ -133,6 +133,12 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
     4. update order state
 
 25. Update User Profile
+
     1. create profile screen
     2. show user info
     3. handle update user info
+
+26. Create Admin Dashboard
+    1. Create Admin Menu
+    2. create dashboard screen
+    3. Implement admin summary api
